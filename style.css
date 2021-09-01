@@ -39,7 +39,6 @@ main img {
 
 .group {
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -48,12 +47,16 @@ main img {
   margin: 10px;
 }
 
-.item-larger {
-  flex: 1.2;
-}
-
 .item-double {
   flex: 2;
+}
+
+.start{
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
 }
 
 
@@ -101,22 +104,20 @@ header nav ul li a:hover {
 /* -------  Join Form ------- */
 form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   border: 2px solid #6b1a22;
   padding: 10px;
 }
 
 form label {
   font-weight: bold;
-  flex: 1;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  flex: 2;
-  align-self: flex-end;
 }
 
 form button {
