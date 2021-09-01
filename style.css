@@ -51,14 +51,20 @@ main img {
   flex: 2;
 }
 
-.start{
-  justify-content: flex-start;
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*.start{
+  align-self: flex-start;
 }
 
 .end {
-  justify-content: flex-end;
+  align-self: flex-end;
 }
-
+*/
 
 .break {
   flex-basis: 100%;
@@ -103,9 +109,9 @@ header nav ul li a:hover {
 
 /* -------  Join Form ------- */
 form {
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
   border: 2px solid #6b1a22;
   padding: 10px;
 }
